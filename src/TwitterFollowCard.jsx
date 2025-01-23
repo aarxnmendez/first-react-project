@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export function TwitterFollowCard ({ children, userName, initialIsFollowing }) {
+function TwitterFollowCard ({ children, userName, initialIsFollowing }) {
   const [isFollowing, setIsFollowing] = useState(initialIsFollowing)
 
   console.log('[TwitterFollowCard] render with userName: ', userName)
@@ -37,3 +37,5 @@ export function TwitterFollowCard ({ children, userName, initialIsFollowing }) {
     </article>
   )
 }
+
+export default TwitterFollowCard;

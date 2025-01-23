@@ -24,7 +24,7 @@ const users = [
   }
 ]
 
-export default function App () {
+function App () {
   return (
     <section className='App'>
       {
@@ -41,3 +41,5 @@ export default function App () {
     </section>
   )
 }
+
+export default App;
